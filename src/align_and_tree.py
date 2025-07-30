@@ -7,7 +7,7 @@ def write_fasta(sequences, output_path):
     SeqIO.write(sequences, output_path, "fasta")
 
 def run_alignment(input_fasta):
-    clustalw_exe = "clustalw2"  # or full path like "/usr/bin/clustalw2"
+    clustalw_exe = "clustalw"  # Changed from "clustalw2" to "clustalw"
     cline = ClustalwCommandline(clustalw_exe, infile=input_fasta)
     stdout, stderr = cline()
     return input_fasta.replace(".fasta", ".aln"), input_fasta.replace(".fasta", ".dnd")
