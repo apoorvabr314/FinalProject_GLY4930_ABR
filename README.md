@@ -69,6 +69,12 @@ Converts the alignment into a tree diagram showing how related the viruses are. 
 Example Tree:
 <img src="https://openbooks.lib.msu.edu/app/uploads/sites/72/h5p/content/88/images/image-5efe3c6f9ed7b.gif" alt="Phylogenetic tree example" width="500"/>
 
+Virus Phylogenetic Trees can tell help:
+
+* Track virus evolution or mutation hotspots
+* Distinguish between outbreak strains
+* Choose representative sequences for vaccine or diagnostic design
+
 ### Modules
 All steps are modularized in the ``src/`` directory making it easy to use and resue individual steps and swap in original data.
 
