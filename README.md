@@ -33,17 +33,18 @@ This project focuses on viral genome sequences that carry all of a virus’s bio
 
 ### 🧪 Fetch Viral Genomes from NCBI Entrez
 Connects to NCBI (National Center for Biotechnology Information) Entrez using Biopython to download virus genome sequences in FASTA format.
+
 FASTA is a plain-text file format like:
 
     >dengue_virus_seq1
     AGTTGAGATCTGTGT...
+
 This step can be replaced with a FASTA file of any unknown virus.
 
 ### 🧪 Run BLAST to Compare Sequences
 Uses BLAST (Basic Local Alignment Search Tool) to compare your viral sequence against thousands in NCBI's database. Each 'hit' is printed.
+
 This helps identify similar viruses, strains, or organisms.
-BLAST Match Example:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/BLAST_Results_Example.png" alt="BLAST example" width="600"/>
 
 ### 🧪 Parse and Summarize BLAST Hits
 Parses XML results from NCBI BLAST and extracts:
@@ -66,7 +67,7 @@ Aligning example:
 Converts the alignment into a tree diagram showing how related the viruses are. The tree is built using the Newick format and rendered with Biopython’s Phylo module.
 
 Example Tree:
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Simple_phylogenetic_tree.png" alt="Phylogenetic tree example" width="500"/>
+<img src="https://openbooks.lib.msu.edu/app/uploads/sites/72/h5p/content/88/images/image-5efe3c6f9ed7b.gif" alt="Phylogenetic tree example" width="500"/>
 
 ### Modules
 All steps are modularized in the ``src/`` directory making it easy to use and resue individual steps and swap in original data.
