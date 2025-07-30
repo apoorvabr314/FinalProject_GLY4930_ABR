@@ -1,0 +1,4 @@
+biopython>=1.81
+matplotlib>=3.7
+requests>=2.31
+lxml>=4.9
