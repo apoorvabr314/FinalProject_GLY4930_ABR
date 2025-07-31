@@ -106,5 +106,11 @@ On Ubuntu/Debian: ``sudo apt-get install clustalw``
 On Mac (via Homebrew): ``brew install clustal-w``
 On Colab: ``!apt-get install clustalw``.
 
-## 🧬 Contact
+## 🧬 Contributors
 Project by Apoorva Bangalore Raviprasad.
+
+## 🧬 Datasets
+The demo uses Dengue Virus sequences dataset from the National Center for Biotechnology Information (NCBI) database.
+
+- NCBI Virus Resource: Hatcher et al., 2017. [DOI: 10.1093/nar/gkw1065](https://doi.org/10.1093/nar/gkw1065)
+- GenBank: Sayers et al., 2022. [DOI: 10.1093/nar/gkab1030](https://doi.org/10.1093/nar/gkab1030)
