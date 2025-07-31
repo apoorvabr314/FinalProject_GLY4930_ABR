@@ -76,7 +76,7 @@ Virus Phylogenetic Trees can tell help:
 * Choose representative sequences for vaccine or diagnostic design
 
 ### Modules
-All steps are modularized in the ``src/``[Link](https://github.com/apoorvabr314/FinalProject_GLY4930_ABR/tree/main/src)`` directory making it easy to use and resue individual steps and swap in original data.
+All steps are modularized in the ``src/`` - [Link](https://github.com/apoorvabr314/FinalProject_GLY4930_ABR/tree/main/src) - directory making it easy to use and resue individual steps and swap in original data.
 
     ├── fetch_sequences.py
     ├── run_blast.py
