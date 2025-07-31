@@ -100,7 +100,7 @@ The downloaded files from the example notebook are available under ``results/`` 
 
 ``pip install -r requirements.txt``
 
-3. [ClustalW2](http://www.clustal.org/clustal2/) must be installed separately to enable multiple sequence alignment. (It is not a python package but a seperate commant-line tool.) 
+3. [ClustalW2](http://www.clustal.org/clustal2/) must be installed separately to enable multiple sequence alignment. (It is not a python package but a seperate command-line tool.) 
 
 On Ubuntu/Debian: ``sudo apt-get install clustalw``
 On Mac (via Homebrew): ``brew install clustal-w``
