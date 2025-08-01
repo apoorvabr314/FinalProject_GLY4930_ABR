@@ -1,7 +1,9 @@
 # 🦠 Viral Genomics with Biopython: Dengue Case Study
 
 This project uses [Biopython](https://biopython.org/) to create a reproducible pipeline for exploring viral genomes, running BLAST queries, performing multiple sequence alignment, and building phylogenetic trees. 
+
 The viral genome analysis is done using public databases and bioinformatics tools, designed to be understandable to be users with no background in Biology.
+
 An example is demonstrated on **Dengue virus** genome sequences.
 
 ## 🧬 What is a Virus?
@@ -51,10 +53,12 @@ Parses XML results from NCBI BLAST and extracts:
 * Top matching organisms
 * Sequence similarity scores (bit scores, e-values)
 * Aligned sequence regions
+
 This helps process the BLAST hits.
 
 ### 🧪 Perform Multiple Sequence Alignment (MSA) with ClustalW
 Aligns multiple viral genome sequences to highlight shared or differing regions.
+
 This helps uncover conserved genetic patterns and mutations.
 
 Aligning example:
@@ -87,7 +91,9 @@ After each step, files like ``.fasta``, ``.xml``, ``.aln``, and ``.dnd`` can be 
 
 ## 🧬 Let's test the code!
 Link to Colab notebook: [dengue_analysis.ipynb](https://colab.research.google.com/drive/1ZVyDpIpl_gsuaPH7dfulFxvbGQLWKHmf?usp=sharing)
+
 A Jupyter notebook with the main script is available under ``notebooks/``.
+
 The downloaded files from the example notebook are available under ``results/`` and ``data/``.
 
 ## 🧬 Project Installation
