@@ -93,12 +93,12 @@ The downloaded files from the example notebook are available under ``results/`` 
 ## 🧬 Project Installation
 1. Clone this repository:
 
-``git clone https://github.com/apoorvabr314/FinalProject_GLY4930_ABR.git
-  cd virus-genomics``
+       git clone https://github.com/apoorvabr314/FinalProject_GLY4930_ABR.git
+       cd virus-genomics
 
 2. Install dependencies:
 
-``pip install -r requirements.txt``
+       pip install -r requirements.txt
 
 3. [ClustalW2](http://www.clustal.org/clustal2/) must be installed separately to enable multiple sequence alignment. (It is not a python package but a seperate command-line tool.) 
 
